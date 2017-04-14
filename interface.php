@@ -10,5 +10,9 @@ interface CrudAble {
     public function update($id, array $data);
 
     public function delete($id);
+    
+    public function ade(){
+       echo "ade";
+    }
 
 }
